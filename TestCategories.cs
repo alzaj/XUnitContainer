@@ -60,7 +60,7 @@ namespace Xunit.Extensions
             get { return cmd.TypeUnderTest; }
             set { cmd.TypeUnderTest = value; }
         }
-
+//this commentar is useless. delete it please.
         public int ChooseNextTest(ICollection<IMethodInfo> testsLeftToRun)
         {
             return cmd.ChooseNextTest(testsLeftToRun);
